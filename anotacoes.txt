@@ -1,0 +1,9 @@
+bibliotecas de terceiros: {
+lodash = funções utilitárias para tarefas comuns de programação usando o paradigma de programação funcional.
+
+nodemon =  irá monitorar todas as alterações nos arquivos de sua aplicação e reiniciar
+ automaticamente o servidor quando for necessário.
+ }
+
+ Axios = é um cliente HTTP, que funciona tanto no browser quanto em node.js. A biblioteca é basicamente uma API que sabe interagir tanto com XMLHttpRequest quanto com a interface http do node. Isso significa que o mesmo código
+  utilizado para fazer requisições ajax no browser também funciona no servidor

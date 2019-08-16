@@ -1,0 +1,10 @@
+const nome = "D1llon";
+console.log(nome.charAt(4)); // exbibe a letra no indice que esta entre parenteses;
+console.log(nome.charCodeAt(0)); // exbibe o indice na tabela unicode do caractere entre parenteses;
+console.log(nome.substring(3)); //exibe os caracteres a partir do indice entre parenteses;
+console.log(nome.substring(0, 3)); //exibe os caracteres a partir do indice entre parenteses;
+console.log("Nome: ".concat(nome)); //concatena string com variavel;
+console.log(nome.replace("o", "a")); //substitui todos os caracteres 'o' da variavel por 'a', por exemplo;
+console.log(nome.replace(/\w/g, "a")); //substitui todos os caracteres da variavel por 'h', por exemplo;
+console.log(nome.replace(/\d/, "i")); //substitui todos os digitos(numero) da variavel por 'i', por exemplo;
+console.log("Dillon, Patrick, Silva".split(",")); // split : usa a virgula como separador e gera um Array;
