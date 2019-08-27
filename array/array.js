@@ -9,11 +9,10 @@ console.log(aprovados);
 aprovados[3] = 'patrick';
 console.log(aprovados);
 aprovados[7] = 'silva';
-console.log(aprovados.sort());
+console.log(aprovados);
 
 delete aprovados[3]
 console.log(aprovados.sort());
 console.log(aprovados.length);
 aprovados.splice(1,3)
-
-
+aprovados.splice();
