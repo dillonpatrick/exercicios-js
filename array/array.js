@@ -8,7 +8,7 @@ aprovados.push('dillon');
 console.log(aprovados);
 aprovados[3] = 'patrick';
 console.log(aprovados);
-aprovados[7] = 'silva';
+aprovados[7] = 'Nascimento';
 console.log(aprovados);
 
 delete aprovados[3]
