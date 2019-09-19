@@ -1,4 +1,3 @@
-const saudacoes = require("../node/passandoParametros")
-('ana', 'joao')
+const saudacoes = require("./passandoParametros")("ana", "joao");
 
 console.log(saudacoes);
