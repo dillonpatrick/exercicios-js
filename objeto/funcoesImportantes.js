@@ -1,7 +1,7 @@
 const pessoa = {
   nome: "Dillon",
   idade: 24,
-  peso: 65
+  peso: 00
 };
 
 console.log(Object.keys(pessoa)); // exibe o nome de todas as variares de um objeto

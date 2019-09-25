@@ -33,7 +33,7 @@ const volvo = {
 
 Object.setPrototypeOf(ferrari, carro);
 Object.setPrototypeOf(volvo, carro);
-ferrari.aceleramais(300);
+ferrari.aceleramais(321);
 volvo.aceleramais(20);
 console.log(ferrari.status());
 console.log(volvo.status());

@@ -9,6 +9,6 @@ const carrinho = [
   const apenasPreco = produto => produto.preco;
   const apenasNome = produto => produto.nome;
 
-resultado = carrinho.map(paraObjeto).map(apenasPreco)
+const resultado = carrinho.map(paraObjeto).map(apenasPreco)
 console.log(resultado);
 
